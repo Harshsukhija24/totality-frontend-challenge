@@ -1,113 +1,130 @@
 import Image from "next/image";
+import React from "react";
+import NavBar from "./components/NavBar";
+import {
+  FaCheckCircle,
+  FaHome,
+  FaLeaf,
+  FaUserCheck,
+  FaHiking,
+  FaBed,
+  FaUsers,
+} from "react-icons/fa"; // Importing additional icons
 
-export default function Home() {
+const Page = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      <NavBar />
+      {/* Hero Section */}
+      <div className="relative h-screen">
+        <Image
+          src="https://arrivls.com/wp-content/uploads/2023/01/donna-dhs-70.jpg"
+          alt="hotel"
+          layout="fill"
+          objectFit="cover"
+          className="absolute inset-0"
+        />
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
+            Enjoy Your Dream Stay
+          </h1>
+          <p className="mt-4 text-base sm:text-lg md:text-xl text-center">
+            Find the perfect stay for your next getaway.
+          </p>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      {/* Information Section */}
+      <div className="relative py-16">
+        <div className="absolute inset-0">
+          <Image
+            src="https://i.pinimg.com/474x/b1/a4/5b/b1a45b1846602d108389c4afff3814b7.jpg"
+            alt="Background"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg opacity-30"
+          />
+        </div>
+        <div className="relative z-10 flex flex-col md:flex-row items-center justify-center px-4 md:px-8">
+          <div className="md:w-1/2 mb-8 md:mb-0">
+            <Image
+              src="https://arrivls.com/wp-content/uploads/2023/09/DSC03136.jpg"
+              alt="hotel"
+              width={700}
+              height={700}
+              className="rounded-lg w-full h-auto"
+            />
+          </div>
+          <div className="md:w-1/2 md:ml-8">
+            <span className="block mb-2 text-lg sm:text-xl font-bold text-black">
+              Experience the epitome of refinement and grandeur in every detail
+              of beauty.
+            </span>
+            <span className="block mb-4 text-base sm:text-lg text-black">
+              Discover your ideal home with our comprehensive listings and
+              expert guidance. From urban condos to countryside retreats, we're
+              here to make your journey the best in every way possible.
+            </span>
+            <ul className="list-none space-y-2">
+              <li className="flex items-center text-base sm:text-lg text-black">
+                <FaUsers className="text-green-500 mr-2" /> 30k+ <br /> happy
+                customers
+              </li>
+              <li className="flex items-center text-base sm:text-lg text-black">
+                <FaHome className="text-green-500 mr-2" /> 5k+ <br /> properties
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      {/* Features Section */}
+      <div className="relative py-16">
+        <div className="absolute inset-0">
+          <Image
+            src="https://arrivls.com/wp-content/uploads/2023/01/donna-dhs-70.jpg"
+            alt="hotel"
+            layout="fill"
+            objectFit="cover"
+            className="absolute inset-0"
+          />
+        </div>
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative z-10 flex flex-col items-center justify-center px-4">
+          <span className="block text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-white">
+            An Exhibition of Excellence and Artistry
+          </span>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+            <div className="border border-gray-300 p-4 rounded-lg flex items-center bg-white">
+              <FaHome className="text-green-500 mr-2 text-xl sm:text-2xl" />
+              <span className="text-base sm:text-lg">Easy to Rent</span>
+            </div>
+            <div className="border border-gray-300 p-4 rounded-lg flex items-center bg-white">
+              <FaUserCheck className="text-green-500 mr-2 text-xl sm:text-2xl" />
+              <span className="text-base sm:text-lg">Carefully Crafted</span>
+            </div>
+            <div className="border border-gray-300 p-4 rounded-lg flex items-center bg-white">
+              <FaBed className="text-green-500 mr-2 text-xl sm:text-2xl" />
+              <span className="text-base sm:text-lg">Proper Hygiene</span>
+            </div>
+            <div className="border border-gray-300 p-4 rounded-lg flex items-center bg-white">
+              <FaHiking className="text-green-500 mr-2 text-xl sm:text-2xl" />
+              <span className="text-base sm:text-lg">Spacious Outdoor</span>
+            </div>
+            <div className="border border-gray-300 p-4 rounded-lg flex items-center bg-white">
+              <FaLeaf className="text-green-500 mr-2 text-xl sm:text-2xl" />
+              <span className="text-base sm:text-lg">Lush Greenery</span>
+            </div>
+            <div className="border border-gray-300 p-4 rounded-lg flex items-center bg-white">
+              <FaCheckCircle className="text-green-500 mr-2 text-xl sm:text-2xl" />
+              <span className="text-base sm:text-lg">Authorized Property</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
+    </>
   );
-}
+};
+
+export default Page;

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "1",
+    "name": "Cozy Apartment in New Delhi",
+    "location": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India"
+    },
+    "price_per_night": 4500,
+    "currency": "INR",
+    "property_type": "Apartment",
+    "room_type": "Entire home/apt",
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "amenities": ["WiFi", "Air conditioning", "Kitchen"],
+    "images": [
+      "https://i.pinimg.com/564x/ef/c1/85/efc185fe688efef6659593428d34b718.jpg"
+    ],
+    "rating": 4.85,
+    "number_of_reviews": 120,
+    "description": "A charming apartment in the heart of New Delhi, perfect for exploring the city. Enjoy modern amenities including WiFi and air conditioning in a comfortable space."
+  },
+  {
+    "id": "2",
+    "name": "Luxury Villa in Goa",
+    "location": {
+      "city": "Goa",
+      "state": "Goa",
+      "country": "India"
+    },
+    "price_per_night": 12000,
+    "currency": "INR",
+    "property_type": "Villa",
+    "room_type": "Entire home/apt",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "amenities": ["Pool", "Beach access", "BBQ grill"],
+    "images": [
+      "https://i.pinimg.com/736x/85/d7/f9/85d7f9677bc673c36c7d188f529f9c9b.jpg"
+    ],
+    "rating": 4.95,
+    "number_of_reviews": 250,
+    "description": "A luxurious villa in Goa with stunning beach access and a private pool. Ideal for a relaxing getaway with all the comforts of home."
+  },
+  {
+    "id": "3",
+    "name": "Heritage Home in Jaipur",
+    "location": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "price_per_night": 6000,
+    "currency": "INR",
+    "property_type": "House",
+    "room_type": "Entire home/apt",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "amenities": ["WiFi", "Garden", "Parking"],
+    "images": [
+      "https://i.pinimg.com/564x/a6/7f/bd/a67fbd8b5dcb078583538bbc3a216807.jpg"
+    ],
+    "rating": 4.75,
+    "number_of_reviews": 95,
+    "description": "A beautiful heritage home in Jaipur offering a blend of traditional charm and modern comfort. Enjoy spacious living with a garden and ample parking."
+  },
+  {
+    "id": "4",
+    "name": "Mountain Cottage in Manali",
+    "location": {
+      "city": "Manali",
+      "state": "Himachal Pradesh",
+      "country": "India"
+    },
+    "price_per_night": 8000,
+    "currency": "INR",
+    "property_type": "Cottage",
+    "room_type": "Entire home/apt",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "amenities": ["Fireplace", "Mountain view", "WiFi"],
+    "images": [
+      "https://i.pinimg.com/564x/2d/c0/82/2dc082b497390a07c20ee5affd83247c.jpg"
+    ],
+    "rating": 4.9,
+    "number_of_reviews": 180,
+    "description": "A cozy mountain cottage in Manali with breathtaking views and a fireplace for chilly evenings. Perfect for a serene retreat."
+  },
+  {
+    "id": "5",
+    "name": "Beachfront Apartment in Mumbai",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "price_per_night": 15000,
+    "currency": "INR",
+    "property_type": "Apartment",
+    "room_type": "Entire home/apt",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "amenities": ["Ocean view", "WiFi", "Air conditioning"],
+    "images": [
+      "https://i.pinimg.com/564x/5b/22/f6/5b22f6bf1d45025a27766d891f26a490.jpg"
+    ],
+    "rating": 4.8,
+    "number_of_reviews": 210,
+    "description": "A luxurious beachfront apartment in Mumbai offering stunning ocean views and modern amenities for a premium stay."
+  },
+  {
+    "id": "6",
+    "name": "Farmhouse Stay in Kerala",
+    "location": {
+      "city": "Alleppey",
+      "state": "Kerala",
+      "country": "India"
+    },
+    "price_per_night": 4000,
+    "currency": "INR",
+    "property_type": "Farmhouse",
+    "room_type": "Entire home/apt",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "amenities": ["Farm view", "WiFi", "Free breakfast"],
+    "images": [
+      "https://i.pinimg.com/736x/2a/8a/18/2a8a1862f6b958bc2a1d71f7e4e22f37.jpg"
+    ],
+    "rating": 4.65,
+    "number_of_reviews": 130,
+    "description": "Experience the tranquility of a farmhouse stay in Kerala with beautiful farm views and complimentary breakfast."
+  },
+  {
+    "id": "7",
+    "name": "Penthouse in Bangalore",
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "price_per_night": 10000,
+    "currency": "INR",
+    "property_type": "Penthouse",
+    "room_type": "Entire home/apt",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "amenities": ["City view", "WiFi", "Rooftop access"],
+    "images": [
+      "https://i.pinimg.com/564x/10/ed/f2/10edf2bba436664b3f2c4eb59e61f9d4.jpg"
+    ],
+    "rating": 4.9,
+    "number_of_reviews": 140,
+    "description": "A stunning penthouse in Bangalore with panoramic city views and exclusive rooftop access for a luxurious experience."
+  },
+  {
+    "id": "8",
+    "name": "Desert Camp in Jaisalmer",
+    "location": {
+      "city": "Jaisalmer",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "price_per_night": 5000,
+    "currency": "INR",
+    "property_type": "Tent",
+    "room_type": "Private room",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "amenities": ["Desert view", "WiFi", "Free parking"],
+    "images": [
+      "https://i.pinimg.com/564x/b4/c8/97/b4c897ee552b20d0e5e3ffbd2301e528.jpg"
+    ],
+    "rating": 4.7,
+    "number_of_reviews": 60,
+    "description": "Enjoy a unique desert camping experience in Jaisalmer with stunning desert views and essential amenities."
+  },
+  {
+    "id": "9",
+    "name": "Luxury Houseboat in Srinagar",
+    "location": {
+      "city": "Srinagar",
+      "state": "Jammu and Kashmir",
+      "country": "India"
+    },
+    "price_per_night": 11000,
+    "currency": "INR",
+    "property_type": "Houseboat",
+    "room_type": "Entire home/apt",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "amenities": ["Lake view", "WiFi", "Free breakfast"],
+    "images": [
+      "https://i.pinimg.com/564x/0d/c1/be/0dc1beff5b3027126a683f05ee7894db.jpg"
+    ],
+    "rating": 4.95,
+    "number_of_reviews": 95,
+    "description": "A luxurious houseboat in Srinagar offering picturesque lake views and a serene stay with complimentary breakfast."
+  },
+  {
+    "id": "10",
+    "name": "Rustic Cabin in Ooty",
+    "location": {
+      "city": "Ooty",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "price_per_night": 7500,
+    "currency": "INR",
+    "property_type": "Cabin",
+    "room_type": "Entire home/apt",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "amenities": ["Mountain view", "WiFi", "Fireplace"],
+    "images": [
+      "https://i.pinimg.com/564x/e4/8f/73/e48f7379205e40cb5c8e3f3098456960.jpg"
+    ],
+    "rating": 4.8,
+    "number_of_reviews": 80,
+    "description": "A cozy rustic cabin in Ooty with stunning mountain views and a fireplace for a relaxing getaway in the hills."
+  },
+  {
+    "id": "11",
+    "name": "Modern Studio in Hyderabad",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India"
+    },
+    "price_per_night": 3500,
+    "currency": "INR",
+    "property_type": "Studio",
+    "room_type": "Entire home/apt",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "amenities": ["WiFi", "Air conditioning", "Gym"],
+    "images": [
+      "https://i.pinimg.com/736x/f9/62/11/f9621116b9d0cfc5a2b4fda9a404f366.jpg"
+    ],
+    "rating": 4.7,
+    "number_of_reviews": 70,
+    "description": "A sleek and modern studio in Hyderabad, featuring a gym and all essential amenities for a comfortable stay."
+  },
+  {
+    "id": "12",
+    "name": "Charming Cottage in Darjeeling",
+    "location": {
+      "city": "Darjeeling",
+      "state": "West Bengal",
+      "country": "India"
+    },
+    "price_per_night": 6000,
+    "currency": "INR",
+    "property_type": "Cottage",
+    "room_type": "Entire home/apt",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "amenities": ["Mountain view", "WiFi", "Fireplace"],
+    "images": [
+      "https://i.pinimg.com/564x/77/f2/3d/77f23d89cdf2debf5714b6992c10e7ad.jpg"
+    ],
+    "rating": 4.85,
+    "number_of_reviews": 90,
+    "description": "A charming cottage in Darjeeling with beautiful mountain views and a cozy fireplace for a peaceful retreat."
+  },
+  {
+    "id": "13",
+    "name": "Seaside Villa in Chennai",
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "price_per_night": 9500,
+    "currency": "INR",
+    "property_type": "Villa",
+    "room_type": "Entire home/apt",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "amenities": ["Ocean view", "WiFi", "Private pool"],
+    "images": [
+      "https://i.pinimg.com/474x/37/31/68/373168e4f812aeb055739f0a71b31d59.jpg"
+    ],
+    "rating": 4.9,
+    "number_of_reviews": 150,
+    "description": "A luxurious seaside villa in Chennai with stunning ocean views and a private pool, perfect for a relaxing vacation."
+  },
+  {
+    "id": "14",
+    "name": "City Center Loft in Pune",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "price_per_night": 4000,
+    "currency": "INR",
+    "property_type": "Loft",
+    "room_type": "Entire home/apt",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "amenities": ["WiFi", "Air conditioning", "City view"],
+    "images": [
+      "https://i.pinimg.com/564x/ab/20/9d/ab209dca6604f9c3e644a801d041fefd.jpg"
+    ],
+    "rating": 4.7,
+    "number_of_reviews": 85,
+    "description": "A stylish loft in the city center of Pune with modern amenities and great city views, ideal for business or leisure."
+  },
+  {
+    "id": "15",
+    "name": "Traditional Rajasthani Haveli in Udaipur",
+    "location": {
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "price_per_night": 7000,
+    "currency": "INR",
+    "property_type": "Haveli",
+    "room_type": "Entire home/apt",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "amenities": ["Garden", "WiFi", "Heritage architecture"],
+    "images": [
+      "https://i.pinimg.com/564x/f8/c9/7f/f8c97fbfd33157833b4b5f5a76345f93.jpg"
+    ],
+    "rating": 4.85,
+    "number_of_reviews": 110,
+    "description": "A traditional Rajasthani haveli in Udaipur offering heritage architecture and a beautiful garden for a cultural experience."
+  },
+  {
+    "id": "16",
+    "name": "Luxury Penthouse in Mumbai",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "price_per_night": 12000,
+    "currency": "INR",
+    "property_type": "Penthouse",
+    "room_type": "Entire home/apt",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "amenities": ["City view", "WiFi", "Jacuzzi"],
+    "images": [
+      "https://i.pinimg.com/564x/7b/ae/c6/7baec6bf6e24eefa2e9923a333b7f298.jpg"
+    ],
+    "rating": 4.9,
+    "number_of_reviews": 80,
+    "description": "A luxurious penthouse in Mumbai with stunning city views and a private Jacuzzi, perfect for a high-end stay."
+  },
+  {
+    "id": "17",
+    "name": "Cozy Cabin in Manali",
+    "location": {
+      "city": "Manali",
+      "state": "Himachal Pradesh",
+      "country": "India"
+    },
+    "price_per_night": 4500,
+    "currency": "INR",
+    "property_type": "Cabin",
+    "room_type": "Entire home/apt",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "amenities": ["Mountain view", "WiFi", "Fireplace"],
+    "images": [
+      "https://i.pinimg.com/564x/2d/c0/82/2dc082b497390a07c20ee5affd83247c.jpg"
+    ],
+    "rating": 4.8,
+    "number_of_reviews": 65,
+    "description": "A cozy cabin in Manali with beautiful mountain views and a warm fireplace, ideal for a winter retreat."
+  },
+  {
+    "id": "18",
+    "name": "Chic Loft in Bangalore",
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "price_per_night": 5500,
+    "currency": "INR",
+    "property_type": "Loft",
+    "room_type": "Entire home/apt",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "amenities": ["WiFi", "Air conditioning", "City view"],
+    "images": [
+      "https://i.pinimg.com/736x/6d/82/a0/6d82a05763f22ab3c2d83c601969ec90.jpg"
+    ],
+    "rating": 4.7,
+    "number_of_reviews": 78,
+    "description": "A chic and modern loft in Bangalore with stylish decor and city views, perfect for a trendy urban stay."
+  },
+  {
+    "id": "19",
+    "name": "Elegant Villa in Goa",
+    "location": {
+      "city": "Goa",
+      "state": "Goa",
+      "country": "India"
+    },
+    "price_per_night": 8000,
+    "currency": "INR",
+    "property_type": "Villa",
+    "room_type": "Entire home/apt",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "amenities": ["Beach access", "WiFi", "Private garden"],
+    "images": [
+      " https://i.pinimg.com/736x/23/fa/b3/23fab3c145fb5841c5dd4039da743a91.jpg"
+    ],
+    "rating": 4.9,
+    "number_of_reviews": 120,
+    "description": "An elegant villa in Goa with direct beach access and a private garden, offering a luxurious coastal experience."
+  },
+  {
+    "id": "20",
+    "name": "Art Deco Apartment in Kolkata",
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India"
+    },
+    "price_per_night": 4200,
+    "currency": "INR",
+    "property_type": "Apartment",
+    "room_type": "Entire home/apt",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "amenities": ["WiFi", "Air conditioning", "Art deco style"],
+    "images": [
+      "https://i.pinimg.com/564x/32/90/af/3290af1b349fb9ea20a05e2d4d2e3aa0.jpg"
+    ],
+    "rating": 4.6,
+    "number_of_reviews": 55,
+    "description": "An art deco apartment in Kolkata with unique vintage style and modern amenities, ideal for a comfortable city stay."
+  }
+]
